@@ -1,0 +1,386 @@
+@font-face{
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-style: lighter;
+  font-weight: lighter;
+  background: #ffffff;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+   font-size: 110px;
+   text-align: center;
+   font-style: lighter;
+   font-weight: lighter;
+   color: white;
+   margin-top: -20px;
+   margin-bottom: -20px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+   font-size: 25px;
+   text-align: center;
+   align-self: center;
+   font-style: normal;
+   font-weight: lighter;
+   color: white;
+   margin-top: -35px;
+}
+h3 {
+  font-family: 'Open Sans', sans-serif;
+   font-size: 60px;
+   text-align: left;
+   font-style: lighter;
+   font-weight: lighter;
+   color: #FFFFFF;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+h4 {
+  font-family: 'Open Sans', sans-serif;
+   font-size: 40px;
+   text-align: center;
+   font-style: lighter;
+   font-weight: lighter;
+   color: white;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.headerContainer {
+  margin-top: 30px;
+  width: 100%;
+}
+
+p{
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-style: lighter;
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff
+}
+
+
+/*horizontal line*/
+hr {
+  height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0 none;
+  margin-top: none;
+  margin-bottom:50px;
+}
+
+hr.home {
+  width: 55%;
+  background-color: white;
+}
+
+
+.sunset {
+  height: 500px;
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  color: #E4C3AD;
+}
+
+.projects {
+  max-height: 350px;
+  max-width: 80%;
+}
+
+.serSquare {
+  width: 50%;
+}
+
+.serRectangle {
+  width: 70%;
+}
+
+.centered {
+  left: 0;
+  position:absolute;
+  text-align:center;
+  top: 100px;
+  width: 100%;
+}
+
+.socialIcons {
+  text-align:center;
+  color: #89A3C4;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.art {
+  text-align:center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.aboutContainer {
+  margin-top: 10px;
+  display: table;
+  background-color: #cc9999;
+  height: 100%;
+  width: 100%;
+}
+
+.spacer {
+  width: 5%;
+}
+
+.spacerW {
+  background: white;
+  height: 20px;
+}
+
+.left-half {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 30%;
+}
+
+.circular {
+  border-radius: 50%;
+  filter: sepia(30%);
+  width: 70%
+}
+
+.right-half {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  width: 70%;
+  padding-right: 30px;
+  padding-left: 0px;
+  font-size: 20px;
+  background-color: #cc9999;
+}
+
+.bodyContainer {
+  font-size: 20px;
+  width: 70%;
+  background-color: #cc9999;
+  align-self: left;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+.container {
+  font-size: 20px;
+  width: 100%;
+  background-color: #cc9999;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify: center;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify: center;
+}
+
+.portDiv {
+  position: relative;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+.serContainer {
+  display: table;
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.left {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 20px 30px;
+}
+
+.right {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 20px 30px;
+  background: #cc9999;
+;
+}
+
+/*----urls-------*/
+a {
+  color: #cc9999;
+}
+a:visited {
+  color: white;
+}
+a:hover, a:active, a:focus {
+  color: black;
+}
+
+/*---------------navigation bar---------------*/
+/* background of nav bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.topnav a {
+  float: left;
+  color: #7E7E7E;
+  /* border-bottom: 4px solid #CC9999; */
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.topnav a:hover {
+  opacity: 60%;
+  background-color: #E4C3AD;
+  color: #FFFFFF;
+}
+
+.topnav a.active {
+  /* background-color: #f3E3DC; */
+  border-bottom: 4px solid #E4C3AD;
+  color: #7E7E7E;
+}
+
+.res {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  padding: 10px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 15px;
+  background: #E4C3AD;
+  color: #FFFFFF;
+}
+.res:hover {
+  opacity: 0.7;
+}
+
+/*-----------portfolio links----------------*/
+.port {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  padding: 10px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 15px;
+  background: #E4C3AD;
+  color: #FFFFFF;
+}
+
+.port:hover {
+  opacity: 0.7;
+}
+
+/*-------social media buttons--------------*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 25px 15px;
+}
+
+.fa:hover {
+  opacity: 60%;
+  background-color: #E4C3AD;
+  color: #FFFFFF;
+}
+
+.fa-facebook {
+  background: #cc9999;
+  color: #FFFFFF;
+}
+
+.fa-twitter {
+  background: #cc9999;
+  color: #FFFFFF;
+}
+
+.fa-linkedin {
+  background: #cc9999;
+  color: #ffffff;
+}
+
+.fa-instagram {
+  background: #cc9999;
+  color: #ffffff;
+}
+
+.fa-download {
+  background: #E4C3AD;
+  color: #ffffff;
+}
+
+/*-----image gallery*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
